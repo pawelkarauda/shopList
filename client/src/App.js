@@ -5,7 +5,7 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="container">
-                    <h1 class="display-3 text-center mb-4">Shopping List</h1>
+                    <h1 className="display-4 text-center mb-4">Shopping List</h1>
                     <List />
                 </div>
             </div>

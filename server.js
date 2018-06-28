@@ -3,9 +3,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const passport = require("passport");
 
-// Load route
+const users = require("./routes/api/users");
 
-// Start App
 const app = express();
 
 // Body parser middleware
@@ -15,17 +14,21 @@ app.use(bodyParser.json());
 // DB Config
 const db = require("./config/keys").databaseURI;
 
-// Connect do Mongo
+// Connect to MongoDB
 mongoose
     .connect(db)
-    .then(() => console.log("Mongo Connected"))
+    .then(() => console.log("MongoDB Connected"))
     .catch(err => console.log(err));
 
-/* // Passport middleware
+// Passport middleware
 app.use(passport.initialize());
 
 // Passport Config
-require("./config/passport")(passport); */
+require("./config/passport")(passport);
+
+// Use Routes
+app.use("/api/users", users);
+
 
 const port = process.env.PORT || 5000;
 
