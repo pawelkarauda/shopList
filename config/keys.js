@@ -1,5 +1,5 @@
-module.exports = {
-    databaseURI:
-        "mongodb://admin:admin123@ds121461.mlab.com:21461/shoppinglist",
-    secretOrKey: "secret"
-};
+if (process.env.NODE_ENV === "production") {
+  module.exports = require("./keys_prod");
+} else {
+  module.exports = require("./keys_dev");
+}
