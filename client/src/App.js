@@ -50,7 +50,7 @@ class App extends Component {
         <BrowserRouter>
           <div className="App">
             <Navbar />
-            <div className="container">
+            <div>
               <Route exact path="/login" component={Login} />
               <Route exact path="/register" component={Register} />
 

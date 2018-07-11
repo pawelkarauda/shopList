@@ -5,6 +5,7 @@
   overflow: hidden;
   width: 100%;
   height: 50px;
+  z-index: 1;
 }
 
 .navi-listed {
@@ -20,10 +21,41 @@
 }
 
 .nav-elem-link {
-  background: #d3d3d3;
+  background: #e7bd00;
   border-radius: 40%;
   color: #443;
   font-weight: 600;
   padding: 10px;
   text-decoration: none;
+}
+
+.list-group-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  padding-left: 0;
+}
+
+.btn {
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+.title {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #3eb806;
+  text-align: center;
+}
+
+.title-shopList {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.add-element {
+  margin-bottom: 60px;
 }
