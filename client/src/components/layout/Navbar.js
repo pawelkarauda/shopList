@@ -53,11 +53,11 @@ class Navbar extends Component {
     const guestLinks = (
       <nav className="navi">
         <ul className="navi-listed">
-          <li className="nav-elem">
+          {/* <li className="nav-elem">
             <Link className="nav-elem-link" to="/register">
               Rejestracja
             </Link>
-          </li>
+          </li> */}
           <li className="nav-elem">
             <Link className="nav-elem-link" to="/login">
               Logowanie

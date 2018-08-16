@@ -28,8 +28,14 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
+}
+
+.to-buy {
+  margin-bottom: 10px;
 }
 .list {
+  margin-top: 10px;
   padding-left: 0;
 }
 
