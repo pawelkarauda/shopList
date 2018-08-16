@@ -17,6 +17,9 @@ class Navbar extends Component {
 
     const authLinks = (
       <nav className="navi">
+      <div class="container">
+        
+      
         <ul className="navi-listed">
           <li className="nav-elem">
             <Link className="nav-elem-link" to="/shoplist">
@@ -43,6 +46,7 @@ class Navbar extends Component {
             </Link>
           </li>
         </ul>
+        </div>
       </nav>
     );
 

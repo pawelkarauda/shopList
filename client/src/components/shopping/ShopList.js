@@ -18,7 +18,9 @@ class ShopList extends Component {
     return (
       <div>
         <div className="title">
+        <div className="container">
           <h3 className="title-shopList">Zakupy</h3>
+        </div>
         </div>
         <div className="container">
           {shopList.length === 0 ? (

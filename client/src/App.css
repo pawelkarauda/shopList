@@ -1,11 +1,7 @@
 .navi {
-  background: rgb(24, 144, 224);
-  position: fixed;
-  bottom: 0;
-  overflow: hidden;
+  background: rgb(24, 144, 224);  
   width: 100%;
-  height: 50px;
-  z-index: 1;
+  height: 50px;  
 }
 
 .navi-listed {
@@ -20,10 +16,8 @@
   margin-top: 13px;
 }
 
-.nav-elem-link {
-  background: #e7bd00;
-  border-radius: 40%;
-  color: #443;
+.nav-elem-link { 
+  color: white;
   font-weight: 600;
   padding: 10px;
   text-decoration: none;
@@ -44,13 +38,6 @@
   margin-bottom: 2px;
 }
 
-.title {
-  margin-bottom: 10px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  background: #3eb806;
-  text-align: center;
-}
 
 .title-shopList {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
